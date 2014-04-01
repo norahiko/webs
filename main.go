@@ -21,8 +21,3 @@ func main() {
 	fmt.Printf("listening on %s:%d\n", host, port)
 	webs.Listen()
 }
-
-func foo() (int, int) {
-	return 3, 4
-}
-
